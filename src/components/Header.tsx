@@ -2,6 +2,7 @@ import React from 'react';
 import logo from '../assets/logo.png';
 import Container from './Container' ;
 import icon from '../assets/icon.png';
+import { Outlet, Link } from "react-router-dom";
 
 function Header() {
   return (
@@ -9,14 +10,14 @@ function Header() {
      <Container className='bg-gradiant-to-r from-gray-700 to-transparent'>
       <header className="flex p-5 space-x-10 justify-between">
         <div className='flex items-center'>
+          
+          <Link to='/'>
           <img src={logo} className="object-scale-down h-40 w-40 items-center"/>
+          </Link>
 
-        <ul className='flex gap-x-4 text-black text-lg font-bold items-center'>
-          <NavItem href='#Aktuelt' text='Aktuelt' /> 
-          <NavItem href='#Lærling' text='Lærling' /> 
-          <NavItem href='#Bedrift' text='Bedrift' /> 
-          <NavItem href='#Bedrift' text='Bedrift' /> 
-          <NavItem href='#Omoss' text='Om oss' /> 
+        <ul className='flex gap-x-4 text-black text-lg font-bold items-center hover:text-pink-500 text-bold'>
+            <Link to='/booking'>Booking</Link> 
+            <Link to='/shop'>Shop</Link>
         </ul>
         </div>
 
