@@ -2,7 +2,7 @@
 
 const Footer = () => {
     return (
-        <footer>
+        <footer bg-color="red">
 
         </footer>
     );
