@@ -15,7 +15,7 @@ function Header() {
 
         <ul className='flex gap-x-6 text-[#12A8F4] text-lg font-bold items-center'>
           <Link to='/' className='hover:bg-[#414141] active:bg-[#313131]'>Forside</Link>
-          <Link to='OmOss' className='hover:bg-[#414141] active:bg-[#313131]'>Om meg/senteret</Link>
+          <Link to='OmOss' className='hover:bg-[#414141] active:bg-[#313131]'>Om meg/senteret</Link> 
           <Link to='/booking' className='hover:bg-[#414141] active:bg-[#313131]'>Booking</Link> 
           <Link to='/shop' className='hover:bg-[#414141] active:bg-[#313131]'>Shop</Link>
         </ul>

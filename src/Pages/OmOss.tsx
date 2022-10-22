@@ -7,7 +7,7 @@ function OmOss() {
   return (
 
 <p>
-    Om oss
+    Om oss 
 </p>
 
   );

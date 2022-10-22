@@ -8,4 +8,4 @@ const Container2 = ({children, className}: {children: React.ReactNode, className
     </div>
 )
 
-export default Container2;
+export default Container2; 

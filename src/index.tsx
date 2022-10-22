@@ -34,8 +34,8 @@ root.render(
         <main className='text-black text-bold'>
           <p>Fant ingen sider?</p>
         </main>
-      }
-    />
+              } />
+              
     
     </Routes>
     </BrowserRouter>

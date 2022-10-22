@@ -8,7 +8,7 @@ function Booking() {
 
 <p>
     Booking
-</p>
+</p> 
 
   );
 }
