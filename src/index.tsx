@@ -23,7 +23,7 @@ root.render(
 
     <BrowserRouter>
     <Routes>
-      <Route path="/" element={<Layout>- <App /> </Layout>} />
+      <Route path="/" element={<Layout> <App /> </Layout>} />
       <Route path="booking" element={<Layout> <Booking /> </Layout>} />
       <Route path="shop" element={<Layout> <Shop /> </Layout>} />
       <Route path="OmOss" element={<Layout> <OmOss /> </Layout>} />

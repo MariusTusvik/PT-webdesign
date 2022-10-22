@@ -6,11 +6,7 @@ import { Link } from "react-router-dom";
 function Shop() {
   return (
    <div>
-    hjkljhklhuilh
-    hjiljil 
-    hijlhjil
-
-    hjilhjii
+   shop
    </div>
   );
 }

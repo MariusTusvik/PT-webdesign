@@ -7,10 +7,6 @@ import logowhite from './assets/logowhite.png';
 function App() {
   return (
   <div>
-    <div>
-
-    </div>
-
     <div className='bg-[#1e1e1e] place-content-center flex py-10'>
       <img src={logowhite} className=""/>
     </div>
