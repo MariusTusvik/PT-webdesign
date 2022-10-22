@@ -12,6 +12,7 @@ import { BrowserRouter,
 import Shop from './Pages/Shop';
 import Booking from './Pages/Booking';
 import Layout from './components/Layout';
+import OmOss from './Pages/OmOss';
 
 
 const root = ReactDOM.createRoot(
@@ -25,12 +26,13 @@ root.render(
       <Route path="/" element={<Layout>- <App /> </Layout>} />
       <Route path="booking" element={<Layout> <Booking /> </Layout>} />
       <Route path="shop" element={<Layout> <Shop /> </Layout>} />
+      <Route path="OmOss" element={<Layout> <OmOss /> </Layout>} />
       
       <Route
       path="*"
       element={
         <main className='text-black text-bold'>
-          <p>There's nothing here!</p>
+          <p>Fant ingen sider?</p>
         </main>
       }
     />

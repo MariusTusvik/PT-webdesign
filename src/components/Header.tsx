@@ -7,23 +7,24 @@ import { Outlet, Link } from "react-router-dom";
 function Header() {
   return (
     <div>
-     <Container className='bg-gradiant-to-r from-gray-700 to-transparent'>
+     <Container className='bg-[#242424]'>
       <header className="flex p-5 space-x-10 justify-between">
         <div className='flex items-center'>
           
-          <Link to='/'>
-          <img src={logo} className="object-scale-down h-40 w-40 items-center"/>
-          </Link>
+          <img src={logo} className="object-scale-down h-20 w-30 items-center"/>
 
-        <ul className='flex gap-x-4 text-black text-lg font-bold items-center hover:text-pink-500 text-bold'>
-            <Link to='/booking'>Booking</Link> 
-            <Link to='/shop'>Shop</Link>
+        <ul className='flex gap-x-6 text-[#12A8F4] text-lg font-bold items-center'>
+          <Link to='/' className='hover:bg-[#414141] active:bg-[#313131]'>Forside</Link>
+          <Link to='OmOss' className='hover:bg-[#414141] active:bg-[#313131]'>Om meg/senteret</Link>
+          <Link to='/booking' className='hover:bg-[#414141] active:bg-[#313131]'>Booking</Link> 
+          <Link to='/shop' className='hover:bg-[#414141] active:bg-[#313131]'>Shop</Link>
         </ul>
         </div>
 
-      <button className='items-start'>
-      <img src={icon} className="object-scale-down h-10 w-10"/>
-      </button>
+      <ul className='items-center text-[#F746A1] flex gap-x-6 font-bold'>
+          <Link to='#log in' className='hover:bg-[#414141] active:bg-[#313131]'>Log in</Link>
+          <Link to='#log in' className='hover:bg-[#414141] active:bg-[#313131]'>Sign in</Link>
+      </ul>
 
       </header>   
       </Container>
