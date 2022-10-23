@@ -1,14 +1,18 @@
 import React from 'react';
 import { Link } from "react-router-dom";
-import Layout from '../components/Layout';
+import gym from '../assets/Gym.jpg'
 
 
 function OmOss() {
   return (
+<div className='flex'>
+    <img src={gym} className='flex h-30 w-30'/>
+    <h5 className='flex'>
+      sdfgsdfg
+    </h5>
 
-<p>
-    Om oss 
-</p>
+</div>
+
 
   );
 }

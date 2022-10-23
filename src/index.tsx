@@ -27,7 +27,7 @@ root.render(
       <Route path="booking" element={<Layout> <Booking /> </Layout>} />
       <Route path="shop" element={<Layout> <Shop /> </Layout>} />
       <Route path="OmOss" element={<Layout> <OmOss /> </Layout>} />
-      
+    
       <Route
       path="*"
       element={
