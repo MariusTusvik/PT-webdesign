@@ -17,8 +17,8 @@ function Header() {
           <Link to='/shop' className='hover:bg-[#414141] active:bg-[#313131] h-full p-5'>Shop</Link>
         </ul>
         </div>
-      <div className='flex items-center'>
-      <ul className=' text-[#F746A1] flex font-bold h-full text-lg'>
+      <div className='items-center'>
+      <ul className=' text-[#F746A1] font-bold h-full text-lg'>
           <Link to='#log in' className='hover:bg-[#414141] active:bg-[#313131] h-full p-5'>Log in</Link>
           <Link to='#log in' className='hover:bg-[#414141] active:bg-[#313131] h-full p-5'>Sign in</Link>
       </ul>

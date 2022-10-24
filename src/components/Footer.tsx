@@ -1,10 +1,15 @@
+import React from 'react';
 
 
-const Footer = () => {
+function Footer () {
     return (
-        <footer bg-color="red">
+        <footer className='bg-red'>
+        <div className='flex'>
+        
 
+
+        </div>
         </footer>
     );
 }
-export default Footer; 
+export default Footer;
