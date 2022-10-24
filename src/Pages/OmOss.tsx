@@ -7,6 +7,12 @@ import '../index.css';
 function OmOss() {
   return (
     <body className='bg-[#212121]'>
+      <div>
+        sadfgsdaf
+      </div>
+
+      <div className='line' > </div>
+
       <div className='flex p-32 gap-20 pb-10'>
         <img src={gym} className='flex imgOm' />
 

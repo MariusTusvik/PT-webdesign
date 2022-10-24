@@ -21,3 +21,8 @@ code {
   height: 35rem;
   border-radius: 5rem;
 }
+
+.line {
+  background: #313131;
+  height: 3xp;
+}
