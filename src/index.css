@@ -18,14 +18,22 @@ code {
 }
 
 .imgOm {
-  width: 50rem;
+  width: 100rem;
   height: 35rem;
   border-radius: 5rem;
 }
 
-.line {
-  background: #313131;
+.pinkline {
   height: 3xp;
+  border-color: #F746A1;
+  width: 50rem;
+}
+
+.line {
+
+  height: 3xp;
+  border-color: #313131;
+  width: 100rem;
 }
 
 .MainDiv {
@@ -47,7 +55,7 @@ code {
 
 .Fatman {
   font-weight: bold;
-  font-size:x-large;
+  font-size: x-large;
 }
 
 .Text {
