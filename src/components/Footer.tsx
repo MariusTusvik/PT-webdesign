@@ -6,20 +6,46 @@ import Instagram from '../assets/Instagram.png'
 
 function Footer () {
     return (
-        <footer className='bg-red'>
-            <div className='row flex bg-black'>
-                <img src={Facebook} className="object-scale-down h-20 w-30 items-center p-1" />
-                <img src={Twitter} className="object-scale-down h-20 w-30 items-center p-1" />
-                <img src={Tiktok} className="object-scale-down h-20 w-30 items-center p-1" />
-                <img src={Instagram} className="object-scale-down h-20 w-30 items-center p-1" />
+        <footer className='Footer' >
+             
+            <div className='MainDiv row'>
+                <div className='flex'>
+                    <img src={Facebook} className="object-scale-down h-16 w-15 items-center m-2" />
+                    <img src={Twitter} className="object-scale-down h-16 w-15 items-center m-2" />
+                    <img src={Tiktok} className="object-scale-down h-16 w-15 items-center m-2" />
+                    <img src={Instagram} className="object-scale-down h-16 w-15 items-center m-2" />
+                </div>
+
+                <div className='flex'>
+                    <div className='WhiteFont'>
+                        "DJ Chicken Has Been Here"
+                    </div> 
+                </div> 
             </div>
 
-            <div className='row flex'>
-                <div className='col-xs-10 col-sm-8 bg-red-600'>
-                    "DJ Chicken Has Been Here"
-                </div> 
-            </div>  
+            <div className='MainDiv row'>
+                <div className='LeftDiv WhiteFont Text'>
+                    <p className='Fatman'> Kontakt </p>
+                    
+                    <></>
+                    <p> Lorem Ipsum is simply dummy text of </p>
+                    <p> the priting and typestting industry </p>
+                    <p> Lorem Impsum has </p>
+                    <></>
+                </div>
 
+                <div className='RightDiv WhiteFont Text'>
+                    <p className='Fatman'> Skriv deg opp for oppdateringer</p>
+                    <p className='Fatman'> om rabatter og gruppetreninger</p>
+                </div>
+            </div>
+            
+            <div className='MainDiv row'>
+                <div className='LeftDiv WhiteFont Text'>
+                    <p> been the industry's standard dummy </p>
+                    <p> text ever </p>
+                </div>
+            </div>
         </footer>
     );
 }
