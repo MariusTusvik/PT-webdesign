@@ -18,7 +18,7 @@ code {
 }
 
 .imgOm {
-  width: 100rem;
+  width: 80rem;
   height: 35rem;
   border-radius: 5rem;
 }
@@ -34,6 +34,10 @@ code {
   height: 3xp;
   border-color: #313131;
   width: 100rem;
+
+  display: flex;
+  justify-content: center;
+  align-content: center;
 }
 
 .MainDiv {

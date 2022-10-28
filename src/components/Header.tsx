@@ -19,7 +19,7 @@ function Header() {
         </div>
         <div className='items-center flex'>
           <ul className=' text-[#F746A1] flex font-bold h-full text-lg items-center pl-5'>
-            <Link to='#log in' className='hover:bg-[#414141] active:bg-[#313131] h-full p-5'>Log in</Link>
+            <Link to='LogIn' className='hover:bg-[#414141] active:bg-[#313131] h-full p-5'>Log in</Link>
             <Link to='#log in' className='hover:bg-[#414141] active:bg-[#313131] h-full p-5'>Sign in</Link>
           </ul>
         </div>
