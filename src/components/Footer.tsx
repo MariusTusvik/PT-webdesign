@@ -3,6 +3,8 @@ import Facebook from '../assets/Facebook.png'
 import Twitter from '../assets/Twitter.png'
 import Tiktok from '../assets/Tiktok.png'
 import Instagram from '../assets/Instagram.png'
+import TextField from "@mui/material/TextField";
+
 
 function Footer () {
     return (
@@ -37,7 +39,9 @@ function Footer () {
                 <div className='RightDiv WhiteFont Text'>
                     <p className='Fatman'> Skriv deg opp for oppdateringer</p>
                     <p className='Fatman'> om rabatter og gruppetreninger</p>
-                </div>
+                    <hr></hr>
+                    <TextField id="outlined-basic" label="E-post" variant="outlined"/>
+             </div>
             </div>
             
             <div className='MainDiv row'>
