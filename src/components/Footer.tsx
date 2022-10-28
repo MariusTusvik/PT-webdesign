@@ -39,7 +39,8 @@ function Footer () {
                 <div className='RightDiv WhiteFont Text'>
                     <p className='Fatman'> Skriv deg opp for oppdateringer</p>
                     <p className='Fatman'> om rabatter og gruppetreninger</p>
-                    <TextField id="outlined-basic" label="E-post" variant="outlined" />
+                    <hr></hr>
+                    <TextField id="outlined-basic" label="E-post" variant="outlined"/>
              </div>
             </div>
             
