@@ -13,14 +13,14 @@ function Header() {
           <ul className='flex text-[#12A8F4] text-lg font-bold items-center pl-5 h-full'>
             <Link to='/' className='hover:bg-[#414141] active:bg-[#313131] h-full p-5'>Forside</Link>
             <Link to='OmOss' className='hover:bg-[#414141] active:bg-[#313131] h-full p-5'>Om meg/senteret</Link>
-            <Link to='/booking' className='hover:bg-[#414141] active:bg-[#313131] h-full p-5'>Booking</Link>
-            <Link to='/shop' className='hover:bg-[#414141] active:bg-[#313131] h-full p-5'>Shop</Link>
+            <Link to='booking' className='hover:bg-[#414141] active:bg-[#313131] h-full p-5'>Booking</Link>
+            <Link to='shop' className='hover:bg-[#414141] active:bg-[#313131] h-full p-5'>Shop</Link>
           </ul>
         </div>
         <div className='items-center flex'>
           <ul className=' text-[#F746A1] flex font-bold h-full text-lg items-center pl-5'>
             <Link to='LogIn' className='hover:bg-[#414141] active:bg-[#313131] h-full p-5'>Log in</Link>
-            <Link to='#log in' className='hover:bg-[#414141] active:bg-[#313131] h-full p-5'>Sign in</Link>
+            <Link to='/' className='hover:bg-[#414141] active:bg-[#313131] h-full p-5'>Sign in</Link>
           </ul>
         </div>
 
