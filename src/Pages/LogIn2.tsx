@@ -6,6 +6,7 @@ import { Outlet, Link } from "react-router-dom";
 
 function LogIn() {
     const [name, setName] = useState("");
+
     return (
 
         <body className="bg-[#1a1a1a] justify-center items-center flex-col flex">
@@ -23,12 +24,11 @@ function LogIn() {
                             name='groupname'
                             value={name}
                             onChange={(e) => setName(e.target.value)}
+
                         />
                     </label>
 
-                    <Link to='/' className=' text-[#12A8F4] pb-16 h-full p-5 text-left'> Har du glemt e-postaddressen ?</Link>
-                    <Link to='/' className=' text-[#F746A1] pb-16 h-full p-5'> Har du ikke en bruker?</Link>
-
+                    <Link to='/' className=' text-[#12A8F4] pb-16 h-full p-5 text-left'> Har du glemt Passordet ?</Link>
 
 
                 </form>

@@ -6,7 +6,7 @@ function Header() {
   return (
     <div className=''>
       <header className="flex space-x-10 justify-between bg-[#242424]">
-        <div className='flex items-center'>
+        <div className='flex'>
 
           <img src={logo} className="object-scale-down h-20 w-30 items-center p-1" />
 
@@ -17,8 +17,8 @@ function Header() {
             <Link to='shop' className='hover:bg-[#414141] active:bg-[#313131] h-full p-5'>Shop</Link>
           </ul>
         </div>
-        <div className='items-center flex'>
-          <ul className=' text-[#F746A1] flex font-bold h-full text-lg items-center pl-5'>
+        <div className='flex'>
+          <ul className=' text-[#F746A1] flex font-bold h-full text-lg pl-5'>
             <Link to='LogIn' className='hover:bg-[#414141] active:bg-[#313131] h-full p-5'>Log in</Link>
             <Link to='/' className='hover:bg-[#414141] active:bg-[#313131] h-full p-5'>Sign in</Link>
           </ul>

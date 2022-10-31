@@ -14,7 +14,8 @@ import Shop from './Pages/Shop';
 import Booking from './Pages/Booking';
 import Layout from './components/Layout';
 import OmOss from './Pages/OmOss';
-import LogIn from './Pages/LogIn'
+import LogIn from './Pages/LogIn';
+import Login2 from './Pages/LogIn2';
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
@@ -29,6 +30,8 @@ root.render(
         <Route path="shop" element={<Layout> <Shop /> </Layout>} />
         <Route path="OmOss" element={<Layout> <OmOss /> </Layout>} />
         <Route path="LogIn" element={<Layout> <LogIn /> </Layout>} />
+        <Route path="Passord" element={<Layout> <Login2 /> </Layout>} />
+
 
         <Route
           path="*"
