@@ -2,7 +2,7 @@ import React, { HtmlHTMLAttributes, useState } from 'react';
 import ReactDOM from 'react-dom/client';
 import logo from '../assets/logo.png';
 import { Outlet, Link } from "react-router-dom";
-import { signInWithPopup, GoogleAuthProvider} from "firebase/auth"
+import { signInWithPopup, GoogleAuthProvider, getAuth} from "firebase/auth"
 import { auth } from '../lib/firebase';
 
 
@@ -13,7 +13,16 @@ function LogIn() {
         
         const credentials = await signInWithPopup(auth, new GoogleAuthProvider())
         console.log(credentials.user)
-    }
+        const user = auth.currentUser;
+
+        if (user) {
+        // User is signed in, see docs for a list of available properties
+        // https://firebase.google.com/docs/reference/js/firebase.User
+        // ...
+        } else {
+        // No user is signed in.
+        }
+                            }
 
     return (
 
@@ -41,7 +50,7 @@ function LogIn() {
                     <Link to='/' className=' text-[#12A8F4] pb-16 h-full p-5 text-left'> Har du glemt e-postaddressen ?</Link>
                     <Link to='/' className=' text-[#F746A1] pb-16 h-full p-5'> Har du ikke en bruker?</Link>
 
-                    <button type="button" onClick={login}>Submit</button>
+                    <button className='bg-white rounded-2xl py-4 px-11' type="button" onClick={login}>Log in with google</button>
 
                 </form>
             </div>
@@ -51,4 +60,4 @@ function LogIn() {
         </body>
     )
 }
-export default LogIn;
+export default LogIn; 
