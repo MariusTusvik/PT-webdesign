@@ -33,6 +33,7 @@ function LogIn() {
                             name='groupname'
                             value={name}
                             onChange={(e) => setName(e.target.value)}
+                            placeholder=""
 
                         />
 
